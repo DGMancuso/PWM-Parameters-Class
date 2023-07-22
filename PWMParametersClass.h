@@ -29,7 +29,7 @@ public:
   int8_t direction = 1;
 
 public:
-    PWMParametersClass(uint8_t pin,
+    PWMParametersClass(uint8_t pin = 255,
                        pwmChParamsStruct outEndPts = {100, 150, 200},
                        pwmChParamsStruct inEndPts = {100, 150, 200},
                        uint8_t inDeadzone = 0,
